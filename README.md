@@ -3,17 +3,17 @@
 **Descripción**  
 _To-Do List_ es una aplicación de gestión de tareas sencilla que permite a los usuarios crear, editar y eliminar tareas. El proyecto está desarrollado en Python y utiliza una interfaz de línea de comandos para interactuar con el usuario.
 
-## Tecnologías
+## Tecnologías:
 
 - **Lenguaje de Programación**: Python 3.x
 - **Framework**: No se utiliza un framework específico
 - **Dependencias**: Las bibliotecas necesarias están incluidas en el archivo `requirements.txt`.
 
-## Esquema de almacenamiento
+## Esquema de almacenamiento:
 
 No se utiliza una base de datos. Los datos se almacenan en archivos locales en formato JSON.
 
-## Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto:
 
 1. **Clonar el repositorio**:
 
@@ -35,7 +35,7 @@ No se utiliza una base de datos. Los datos se almacenan en archivos locales en f
    python main.py
    ```
 
-## Cómo ejecutar las pruebas
+## Cómo ejecutar las pruebas:
 
 1. **Instalar `pytest`**:  
    Si no tienes `pytest` instalado, ejecuta el siguiente comando:
@@ -50,7 +50,7 @@ No se utiliza una base de datos. Los datos se almacenan en archivos locales en f
    pytest
    ```
 
-## Contribuidores
+## Contribuidores:
 
 - **Rosanna Bautista** - 1105980 | GitHub: [rosannabautista](https://github.com/rosannabautista)
 - **Jean Azar** - 1104992 | GitHub: [Jcazt21](https://github.com/Jcazt21)
