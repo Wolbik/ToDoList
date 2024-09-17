@@ -25,9 +25,9 @@ No se utiliza base de datos. Los datos se almacenan en archivos locales en forma
    pip install pytest
    
 **Contribuiddores**
-Rosanna Bautista 1105980 User: rosannabautista
-Jean Azar 1104992 User: Jcazt21
-Samir Moammer 1106232 User: SamirMoammer
-Mercedes Pérez 1054334 User: Mercedesperezy
-Rolbik Urbáez 1105721 User: Wolbik
-Francisco Paulino 1106084 User: Crosslands
+Rosanna Bautista 1105980 User: rosannabautista  
+Jean Azar 1104992 User: Jcazt21  
+Samir Moammer 1106232 User: SamirMoammer  
+Mercedes Pérez 1054334 User: Mercedesperezy  
+Rolbik Urbáez 1105721 User: Wolbik  
+Francisco Paulino 1106084 User: Crosslands  
