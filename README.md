@@ -50,6 +50,29 @@ No se utiliza una base de datos. Los datos se almacenan en archivos locales en f
    pytest
    ```
 
+## CI/CD con GitHub Actions
+
+Este proyecto utiliza **GitHub Actions** para automatizar la ejecución de las pruebas cada vez que se abre un _pull request_ hacia la rama `QA`.
+
+### Flujo de Trabajo (Workflow):
+
+El archivo de configuración del workflow se encuentra en `.github/workflows/python-tests.yml`. El workflow sigue los siguientes pasos:
+
+1. **Clona el repositorio** en el entorno del runner.
+2. **Configura Python** en la versión especificada (actualmente Python 3.x).
+3. **Instala las dependencias** listadas en el archivo `requirements.txt`.
+4. **Ejecuta las pruebas** utilizando `pytest`.
+
+### Trigger de Ejecución
+
+El workflow se ejecuta automáticamente cuando:
+
+- Se crea o actualiza un _pull request_ apuntando a la rama `QA`.
+
+### Manejo de Fallos
+
+Si alguna prueba falla, el workflow falla y los cambios no pueden ser fusionados hasta que todas las pruebas pasen correctamente.
+
 ## Contribuidores:
 
 - **Rosanna Bautista** - 1105980 | GitHub: [rosannabautista](https://github.com/rosannabautista)
