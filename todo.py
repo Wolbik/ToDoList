@@ -1,6 +1,7 @@
 import json
 import os
 
+# todo.py (modificación intencionada para provocar fallos)
 class ToDoList:
     def __init__(self, file_path='data/tasks.json'):
         self.file_path = file_path
