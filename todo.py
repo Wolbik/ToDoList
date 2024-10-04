@@ -3,12 +3,17 @@ import os
 
 # todo.py (modificación intencionada para provocar fallos)
 class ToDoList:
-    def __init__(self):
+    def __init__(self, file_path='data/tasks.json'):
+        self.file_path = file_path
         self.tasks = []
+        self.load_tasks()
 
-    def add_task(self, description):
-        # No agrega la tarea, intencionadamente se deja vacío para que falle
-        pass
+    def load_tasks(self):
+        if os.path.exists(self.file_path):
+            with open(self.file_path, 'r') as file:
+                self.tasks = json.load(file)
+        else:
+            self.tasks = []
 
     def save_tasks(self):
         with open(self.file_path, 'w') as file:
