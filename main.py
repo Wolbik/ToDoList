@@ -6,7 +6,7 @@ def menu():
     print("3. Editar tarea")
     print("4. Marcar tarea como completada")
     print("5. Eliminar tarea")
-    print("6. Salir")
+    print("6. Cerrar")
 
 def main():
     todo_list = ToDoList()
