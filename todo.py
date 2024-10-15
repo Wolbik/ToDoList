@@ -46,7 +46,7 @@ class ToDoList:
 
     def list_tasks(self):
         if not self.tasks:
-            print("No tienes tareas pendientes.")
+            print("No tienes tareas pendientes hasta ahora.")
         for task in self.tasks:
             status = "Completada" if task['completed'] else "Pendiente"
             print(f"ID: {task['id']} - {task['description']} [{status}]")
