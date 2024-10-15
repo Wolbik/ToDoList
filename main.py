@@ -36,7 +36,7 @@ def main():
         elif choice == '5':
             task_id = int(input("ID de la tarea a eliminar: "))
             todo_list.delete_task(task_id)
-            print("Tarea eliminada.")
+            print("Tarea fue eliminada.")
         elif choice == '6':
             print("Saliendo de la aplicación...")
             break
