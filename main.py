@@ -26,7 +26,7 @@ def main():
             if todo_list.edit_task(task_id, new_description):
                 print("Tarea editada exitosamente.")
             else:
-                print("ID de tarea no encontrado.")
+                print("ID de tarea no fue encontrado.")
         elif choice == '4':
             task_id = int(input("ID de la tarea a completar: "))
             if todo_list.complete_task(task_id):
