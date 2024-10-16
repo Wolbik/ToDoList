@@ -6,7 +6,7 @@ def menu():
     print("3. Editar tarea")
     print("4. Marcar tarea como completada")
     print("5. Eliminar tarea")
-    print("6. Salir")
+    print("6. Cerrar")
 
 def main():
     todo_list = ToDoList()
@@ -26,7 +26,7 @@ def main():
             if todo_list.edit_task(task_id, new_description):
                 print("Tarea editada exitosamente.")
             else:
-                print("ID de tarea no encontrado.")
+                print("ID de tarea no fue encontrado.")
         elif choice == '4':
             task_id = int(input("ID de la tarea a completar: "))
             if todo_list.complete_task(task_id):
@@ -36,7 +36,7 @@ def main():
         elif choice == '5':
             task_id = int(input("ID de la tarea a eliminar: "))
             todo_list.delete_task(task_id)
-            print("Tarea eliminada.")
+            print("Tarea fue eliminada.")
         elif choice == '6':
             print("Saliendo de la aplicación...")
             break
