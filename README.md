@@ -80,4 +80,4 @@ Si alguna prueba falla, el workflow falla y los cambios no pueden ser fusionados
 - **Samir Moammer** - 1106232 | GitHub: [SamirMoammer](https://github.com/SamirMoammer)
 - **Mercedes Pérez** - 1054334 | GitHub: [Mercedesperezy](https://github.com/Mercedesperezy)
 - **Rolbik Urbáez** - 1105721 | GitHub: [Wolbik](https://github.com/Wolbik)
-- **Francisco Paulino** - 1106084 | GitHub: [Crosslands](https://github.com/Crosslands)
+- **Francisco Paulino** -  1106084 | GitHub: [Crosslands](https://github.com/Crosslands)
